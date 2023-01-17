@@ -1,3 +1,10 @@
+*, *:before, *:after{
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+
 .logot {
   display: flex;
   justify-content: space-between;
@@ -591,9 +598,10 @@ body {
   z-index: -1;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 1500px;
+  height: 900px;
   background: #4f553d;
-  height: 132%;
+
 }
 
 .touch5 .h231 {
@@ -607,12 +615,16 @@ body {
 
 footer {
   margin-top: 350px;
+  display: flex;
+
+  width: 100%;
+  
 }
 
 .glava2 {
-  min-height: 100%;
   display: flex;
   flex-direction: column;
+  
 }
 
 .text5 {
@@ -779,3 +791,10 @@ footer {
   margin-top: 20px;
   margin-left: 150px;
 }
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 1080px) {}
+
